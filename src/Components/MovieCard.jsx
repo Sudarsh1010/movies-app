@@ -5,7 +5,7 @@ const MovieCard = ({ movie }) => {
     return (
         <div className="movie">
             <div>
-                <p>{ movie.Year  }</p>
+                <p>{ movie.Year }</p>
             </div>
 
             <div>
