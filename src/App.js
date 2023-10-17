@@ -19,7 +19,7 @@ const App = () => {
 
     useEffect(() => {
         searchMovies(searchTerm);
-    }, [])
+    }, [searchTerm])
 
     return (
         <div className="app">
